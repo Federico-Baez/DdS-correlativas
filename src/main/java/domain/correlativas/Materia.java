@@ -16,6 +16,6 @@ public class Materia {
     }
 
     public Boolean correlativasAprobadas(){
-        return this.correlativas.stream().allMatch(materia -> materia.aprobada);
+        return this.correlativas.stream().allMatch(materia -> materia.correlativasAprobadas() && materia.aprobada);
     }
 }
