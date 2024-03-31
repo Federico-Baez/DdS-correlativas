@@ -1,1 +1,1 @@
-![modelo_correlativas](https://github.com/Federico-Baez/DdS-correlativas/assets/67663140/fc02d468-c582-476a-b47c-3b6ea14077aa)
+![modelo-correlativas](https://github.com/Federico-Baez/DdS-correlativas/assets/67663140/aa42741f-8703-46e1-9f8c-f8a1f440452f)
