@@ -12,7 +12,7 @@ public class Inscripcion {
         Collections.addAll(this.asignaturas, asignaturas);
     }
 
-    public Boolean aprobada(){
-        return this.asignaturas.stream().allMatch(materia -> materia.correlativasAprobadas());
+    public Boolean aprobada(Alumno alumno){
+        return this.asignaturas.stream().allMatch(materia -> materia.correlativasAprobadas(alumno));
     }
 }
